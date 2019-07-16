@@ -63,7 +63,7 @@ print('\n\n')
 #        self.val = arg        
 #    def __dict__(self):
 #        return self.val
-class Spell_correction_singleton: # singleton class ...the above has only one instance, this has three
+class Spell_correction_singleton:
       def __init__(self,count_unique,count_unigram,count_bigram):
           self.a = count_unique
           self.b = count_unigram
